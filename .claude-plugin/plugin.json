@@ -1,0 +1,20 @@
+{
+  "name": "ai-sales-engines",
+  "version": "1.0.0",
+  "description": "BotBuilders AI Sales Engines — guided builds for your offer, your sales webinar, and your online course, read from your BotBuilders skills library.",
+  "author": {
+    "name": "BotBuilders",
+    "email": "support@botbuilders.com"
+  },
+  "keywords": [
+    "sales",
+    "offer",
+    "pricing",
+    "webinar",
+    "course",
+    "blueprint"
+  ],
+  "dependencies": [
+    "ai-skills"
+  ]
+}

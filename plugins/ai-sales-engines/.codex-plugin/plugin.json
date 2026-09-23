@@ -1,0 +1,40 @@
+{
+  "name": "ai-sales-engines",
+  "version": "1.0.0",
+  "description": "BotBuilders AI Sales Engines: guided builds for your offer, your sales webinar, and your online course, read from your BotBuilders skills library.",
+  "author": {
+    "name": "BotBuilders",
+    "email": "support@botbuilders.com",
+    "url": "https://botbuilders.com"
+  },
+  "homepage": "https://botbuilders.com",
+  "keywords": [
+    "sales",
+    "offer",
+    "pricing",
+    "webinar",
+    "course",
+    "blueprint"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "AI Sales Engines",
+    "shortDescription": "Build your offer, sales webinar, and course, by BotBuilders.",
+    "longDescription": "Three guided Engines that work with you in short phases: Offer Generator designs and pressure-tests an offer you can sell, Webinar Creator builds a sales webinar down to every slide, and Course Builder turns what you know into a finished course and build plan. Each keeps one Blueprint up to date and never invents results, proof, or urgency.",
+    "developerName": "BotBuilders",
+    "category": "Sales",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://botbuilders.com",
+    "privacyPolicyURL": "https://botbuilders.com/privacy",
+    "termsOfServiceURL": "https://botbuilders.com/terms",
+    "defaultPrompt": [
+      "I want to sell something. Where do I start?",
+      "Help me build a sales webinar for my offer.",
+      "I want to turn what I know into an online course."
+    ],
+    "brandColor": "#111111"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "botbuilders-connector": {
+      "type": "http",
+      "url": "https://ai-skills.botbuilders.com/mcp/",
+      "oauth_resource": "https://ai-skills.botbuilders.com/mcp"
+    }
+  }
+}

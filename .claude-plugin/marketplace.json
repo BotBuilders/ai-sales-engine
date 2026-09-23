@@ -1,0 +1,24 @@
+{
+  "name": "ai-sales-engines",
+  "owner": {
+    "name": "BotBuilders",
+    "email": "support@botbuilders.com"
+  },
+  "description": "BotBuilders AI Sales Engines — the sales product plugin, plus the shared AI Skills library connection it needs.",
+  "plugins": [
+    {
+      "name": "ai-sales-engines",
+      "source": ".",
+      "description": "BotBuilders AI Sales Engines — Offer Generator, Webinar Creator, and Course Builder."
+    },
+    {
+      "name": "ai-skills",
+      "source": {
+        "source": "github",
+        "repo": "BotBuilders/ai-skills",
+        "ref": "main"
+      },
+      "description": "Shared AI Skills library connection. Installed automatically with any BotBuilders product."
+    }
+  ]
+}
