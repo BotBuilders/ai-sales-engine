@@ -1,14 +1,14 @@
 {
-  "name": "botbuilders-ai-sales-engines",
+  "name": "botbuilders-ai-sales-engine",
   "interface": {
     "displayName": "BotBuilders"
   },
   "plugins": [
     {
-      "name": "ai-sales-engines",
+      "name": "ai-sales-engine",
       "source": {
         "source": "local",
-        "path": "./plugins/ai-sales-engines"
+        "path": "./plugins/ai-sales-engine"
       },
       "policy": {
         "installation": "AVAILABLE",

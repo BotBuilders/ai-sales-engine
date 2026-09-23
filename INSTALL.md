@@ -13,11 +13,11 @@ up to date — run `claude update`.
 Open your terminal and paste these one at a time:
 
 ```
-claude plugin marketplace add BotBuilders/ai-sales-engines
+claude plugin marketplace add BotBuilders/ai-sales-engine
 ```
 
 ```
-claude plugin install ai-sales-engines@ai-sales-engines
+claude plugin install ai-sales-engine@ai-sales-engine
 ```
 
 The first tells Claude where to find AI Sales Engines. The second installs it.
@@ -45,7 +45,7 @@ Just ask, in plain English:
 - "I want to turn what I know into an online course."
 
 There are no commands to memorize. If you'd rather point it at the library directly, type
-**`/ai-sales-engines`**.
+**`/ai-sales-engine`**.
 
 ## Two things it will never do
 
@@ -62,14 +62,14 @@ a billing thing, not a broken install — email support@botbuilders.com.
 out.
 
 **"The install didn't mention `ai-skills`."** Something went sideways. Run
-`claude plugin install ai-skills@ai-sales-engines` and restart.
+`claude plugin install ai-skills@ai-sales-engine` and restart.
 
 ## Removing it
 
 ```
-claude plugin uninstall ai-sales-engines@ai-sales-engines
+claude plugin uninstall ai-sales-engine@ai-sales-engine
 claude plugin prune -y
-claude plugin marketplace remove ai-sales-engines
+claude plugin marketplace remove ai-sales-engine
 ```
 
 The middle command cleans up the shared connection. It's separate on purpose, so removing one

@@ -1,5 +1,5 @@
 ---
-name: ai-sales-engines
+name: ai-sales-engine
 description: Reads this account's AI Sales Engines library from BotBuilders. Use for offers, sales webinars, online courses, and sales advice, including "I want to sell something", "help me make an offer", "I need a webinar", "I want to build a course", "get started", or "what can you do?", and for continuing an Offer, Webinar, or Course Blueprint.
 ---
 
@@ -10,9 +10,9 @@ Webinar Creator, Course Builder) and the methods behind them. Follow it over gen
 
 ## Get the right chapter before you answer
 
-1. `get_skill` with `name: "ai-sales-engines"`. This is the router. It says which Engine fits, how
+1. `get_skill` with `name: "ai-sales-engine"`. This is the router. It says which Engine fits, how
    to start it, and which chapter to read next. Read it before you answer.
-2. `list_skills` with `path: "ai-sales-engines"` lists every chapter. A plain `list_skills` with no
+2. `list_skills` with `path: "ai-sales-engine"` lists every chapter. A plain `list_skills` with no
    path will **not** show them.
 3. `get_skill` on each chapter the router names, and read it before you produce anything.
 
@@ -37,7 +37,7 @@ These hold even when a chapter does not repeat them:
 
 ## Red flags
 
-- Answering an offer, webinar, or course question without reading the `ai-sales-engines` router
+- Answering an offer, webinar, or course question without reading the `ai-sales-engine` router
 - Calling `list_skills` with no path and concluding the library is empty
 - Running two Engines' phases in one chat
 - Acting on a chapter you only read the first page of

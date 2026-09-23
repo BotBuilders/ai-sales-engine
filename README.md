@@ -10,8 +10,8 @@ itself up. There are no commands to learn.
 ## Install
 
 ```bash
-claude plugin marketplace add BotBuilders/ai-sales-engines
-claude plugin install ai-sales-engines@ai-sales-engines
+claude plugin marketplace add BotBuilders/ai-sales-engine
+claude plugin install ai-sales-engine@ai-sales-engine
 ```
 
 That is it. The shared **AI Skills** connection installs automatically alongside it — you do not
@@ -27,7 +27,7 @@ Just ask:
 - "I need a sales webinar for my course."
 - "I want to turn what I know into an online course."
 
-Or type **/ai-sales-engines** to point it at the library explicitly.
+Or type **/ai-sales-engine** to point it at the library explicitly.
 
 ## Good to know
 
@@ -45,9 +45,9 @@ One more `claude plugin install`. The skills connection is shared, so you do not
 ## Uninstall
 
 ```bash
-claude plugin uninstall ai-sales-engines@ai-sales-engines
+claude plugin uninstall ai-sales-engine@ai-sales-engine
 claude plugin prune -y          # removes the shared connection once nothing needs it
-claude plugin marketplace remove ai-sales-engines
+claude plugin marketplace remove ai-sales-engine
 ```
 
 `prune` is a separate step on purpose — uninstalling a product never rips the shared connection
